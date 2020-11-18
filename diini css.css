@@ -1,0 +1,13 @@
+.dagar-i manaden-container,
+.calendar-container {
+  display: grid;
+  grid-template-columns: repeat(7, 30px);
+  text-align: right;
+}
+
+
+.calendar-container div:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
